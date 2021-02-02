@@ -24,3 +24,11 @@ php -S 0.0.0.0:8080 -t public
 ```
 http://localhost:8080/login
 ```
+
+
+### Aula 01 
+
+* Aprendemos o que é uma User Story;
+* Definimos uma funcionalidade utilizando User Story; 
+* Aprendemos a definir cenários de testes;
+* Entendemos a importância de definir cenários de testes para nossas funcionalidades;

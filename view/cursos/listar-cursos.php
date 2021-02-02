@@ -1,6 +1,7 @@
 <?php require __DIR__ . '/../inicio-html.php'; ?>
 
 	<a href="/novo-curso" class="btn btn-primary mb-2">Novo Curso</a>
+	<a href="/nova-formacao" class="btn btn-primary mb-2">Nova Formação</a>
     <ul class="list-group">
         <?php foreach ($cursos as $curso): ?>
             <li class="list-group-item d-flex justify-content-between">

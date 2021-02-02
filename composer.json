@@ -10,6 +10,10 @@
         "nyholm/psr7": "^1.3",
         "nyholm/psr7-server": "^1.0",
         "psr/http-server-handler": "^1.0",
-        "php-di/php-di": "^6.2"
+        "php-di/php-di": "^6.2",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "behat/behat": "^3.8"
     }
 }
