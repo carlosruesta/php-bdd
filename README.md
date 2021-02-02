@@ -32,3 +32,35 @@ http://localhost:8080/login
 * Definimos uma funcionalidade utilizando User Story; 
 * Aprendemos a definir cenários de testes;
 * Entendemos a importância de definir cenários de testes para nossas funcionalidades;
+
+### Aula 02
+
++ Vimos que a sintaxe que utilizamos para definir funcionalidades e cenários se chama Gherkin;
++ Aprendemos que o Behat automatiza testes escritos com Gherkin;
++ Inicializamos as configurações para começar a automatizar testes com Behat;
++ Behat automatiza os cenários que nós definirmos utilizando a sintaxe Gherkin.
++ Comandos utilizados:
+
+```
+// Para instalar o behat no projeto
+composer require --dev behat/behat
+
+// Para conferir a instação e versão do Behat
+vendor/bin/behat -V
+
+// Para inicializar o uso do betah.  
+vendor/bin/behat --init
+
+// Para tentar executar os testes com o behat
+vendor/bin/behat
+
+// Para visualizar o que será alterado com um comando update do doctrine. 
+vendor/bin/doctrine orm:schema-tool:update --dump-sql
+
+// Para atualizar o banco de dados
+php vendor/bin/doctrine orm:schema-tool:update -fC
+```
+
++ Ao executar o comando de inicializaação do betah, o behat cria uma pasta **features** e dentro dela uma pasta boostrap e uma classe de contexto que permitirá executar os cenários de teste
++ Foi criada a feature de adicionar formação (como desafio)
+
